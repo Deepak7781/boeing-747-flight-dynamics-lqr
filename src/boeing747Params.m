@@ -1,4 +1,4 @@
-function boeing747Params()
+function ac = boeing747Params()
 
 % Aircraft Parameters
 ac = struct();

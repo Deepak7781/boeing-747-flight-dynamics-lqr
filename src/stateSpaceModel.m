@@ -6,7 +6,7 @@ function [lonSS, latSS] = stateSpaceModel(ac)
             ac.Mu+(ac.Malphadot*ac.Zu/ac.tas) ac.Malpha+(ac.Malphadot*ac.Zalpha/ac.tas) ac.Mq+ac.Malphadot 0;
             0 0 1 0];
 
-    Blon = [ac.XdelE; ac.ZdelE/ac.tas; ac.MdelE+(ac.Malphadot*ac.ZdelE/ac.tas)];
+    Blon = [ac.XdelE; ac.ZdelE/ac.tas; ac.MdelE+(ac.Malphadot*ac.ZdelE/ac.tas); 0];
 
     Clon = eye(4);
     Dlon = zeros(4,1);
@@ -25,7 +25,7 @@ function [lonSS, latSS] = stateSpaceModel(ac)
 
     Clat = eye(4);
 
-    Dlat = zeros(4,1);
+    Dlat = zeros(4,2);
 
     latSS = ss(Alat, Blat, Clat, Dlat);
     
