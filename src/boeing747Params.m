@@ -5,6 +5,7 @@ ac = struct();
 
 ac.alt = 20000; %ft
 ac.mach = 0.65;
+ac.g = 32.174; % ft/s2
 ac.tas = 673; % ft/s
 ac.rho = 0.0407; % lb/ft3
 ac.dynPres = 287.2; % lb/ft2
