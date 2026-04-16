@@ -64,8 +64,3 @@ x_{lat} = [\beta,\ p,\ r, \phi]^T
 $$
 
 ### General State-Space Form
-
-$$
-\dot{x} = Ax + Bu
-$$
-
