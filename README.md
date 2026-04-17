@@ -68,3 +68,5 @@ $$
 $$
 \dot{x} = Ax + Bu
 $$
+
+Aerodynamic data is referenced from "Introduction to Aircraft Flight Mechanics" by Steven L. Morris, David E. Bossert and Wayne F. Hallgren
