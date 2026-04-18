@@ -31,7 +31,8 @@ function [lonSS, latSS] = stateSpaceModel(ac)
     Dlat = zeros(4,2);
 
     latSS = ss(Alat, Blat, Clat, Dlat);
-    latSS.StateName = {'v[m/s]', 'p[rad/s]', 'r[rad/s]', '\phi[rad]'};
-    latSS.InputName = {'\delta_a[rad] \delta_r[rad]'};
-    latSS.OutputName = {'v[m/s]', 'p[rad/s]', 'r[rad/s]', '\phi[rad]'};
+    lonSS.StateName = {'v[m/s]', ''};
+    lonSS.InputName = {'\delta_e[rad]'};
+    lonSS.OutputName = {'u[m/s]', '\alpha[rad]', 'q[rad/s]', '\theta[rad]'};
+    
 end

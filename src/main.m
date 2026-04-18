@@ -16,7 +16,7 @@ x0 = [0.1 0 0 0];
 
 [y,tout,x] = initial(lonSS, x0, t);
 
-% Plot the system response
+
 figure;
 plot(tout, x);
 xlabel('Time (s)');
@@ -30,3 +30,12 @@ disp('Eigenvalues of the longitudinal state matrix:');
 disp(lonEigen);
 disp('Eigenvalues of the lateral state matrix:');
 disp(latEigen);
+
+% Transfer function
+% Input : Elevator Deflection
+% Output : Pitch Angle
+lonTF = tf(lonSS);
+
+elevPitchTF = lonTF(4);
+
+step(elevPitchTF)
