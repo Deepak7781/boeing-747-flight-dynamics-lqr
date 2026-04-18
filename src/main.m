@@ -31,11 +31,3 @@ disp(lonEigen);
 disp('Eigenvalues of the lateral state matrix:');
 disp(latEigen);
 
-% Transfer function
-% Input : Elevator Deflection
-% Output : Pitch Angle
-lonTF = tf(lonSS);
-
-elevPitchTF = lonTF(4);
-
-step(elevPitchTF)
