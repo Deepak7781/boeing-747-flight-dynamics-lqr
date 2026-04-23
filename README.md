@@ -42,12 +42,20 @@ Primary simulation is carried out at:
 
 | Aircraft Parameter | Value |
 |------------------|------|
-| Altitude (ft) | 20000 |
-| Mach | 0.650 |
-| True Airspeed (ft/s) | 673 |
-| Dyn Pressure (lb/ft²) | 287.3 |
-| Weight (lb) | 636636 |
-
+| Altitude (ft) | $20000$ |
+| Mach | $0.650$ |
+| True Airspeed (ft/s) | $673$ |
+| Dyn Pressure (lb/ft²) | $287.3$ |
+| Weight (lb) | $636636$ |
+|Wing Area, S $(ft^2)$|$5500$|
+|Wing span, b $(ft)$|$196$|
+|Wing chord, $\bar{c}$ $(ft)$|$27.3$|
+|C.G $(c \space \bar{x})$|$0.25$|
+|Trim AoA (deg)|$2.5$|
+|$I_{xx}$ $(slug-ft^2)$|$1.82 \times 10^7$|
+|$I_{yy}$ $(slug-ft^2)$|$3.31 \times 10^7$|
+|$I_{zz}$ $(slug-ft^2)$|$4.97 \times 10^7$|
+|$I_{xz}$ $(slug-ft^2)$|$-4.05 \times 10^7$|
 </td>
 
 <td>
