@@ -77,6 +77,7 @@ Primary simulation is carried out at:
 </td>
 
 <td>
+
 |Longitudinal Derivatives|Value|
 |------------------------|----|
 |$X_u (1/s)$|$-0.0059$|
@@ -90,6 +91,7 @@ Primary simulation is carried out at:
 |$X_{\delta_e} (ft/s^2)$|$0.000$|
 |$Z_{\delta_e} (ft/s^2)$|$-25.5659$|
 |$M_{\delta_e} (1/s^2)$|$-1.6937$|
+
 </td>
 
 </tr>
