@@ -60,13 +60,23 @@ Primary simulation is carried out at:
 
 <td>
 
-### Longitudinal Data
-
 |Longitudinal Derivatives|Value|
 |------------------------|----|
-|||
+|$X_u (1/s)$|$-0.0059$|
+|$X_\alpha (ft/s^2)$|$15.9787$|
+|$Z_u (1/s)$|$-0.1104$|
+|$Z_\alpha (ft/s^2)$|$-353.52$|
+|$M_u (1/ft.s)$|$0.000$|
+|$M_\alpha (1/s^2)$|$-1.3028$|
+|$M_{\dot{\alpha}} (1/s)$|$-0.1057$|
+|$M_q (1/s)$|$-0.5417$|
+|$X_{\delta_e} (ft/s^2)$|$0.000$|
+|$Z_{\delta_e} (ft/s^2)$|$-25.5659$|
+|$M_{\delta_e} (1/s^2)$|$-1.6937$|
 
 </td>
+
+
 </tr>
 </table>
 
