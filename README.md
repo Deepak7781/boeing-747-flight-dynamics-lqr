@@ -129,6 +129,12 @@ State Vector : $\mathbf{x}_{lon} = [u\space\alpha\space q\space\theta]^T$
 
 Input Vector : $[\delta_e]$
 
+#### Standard longitudinal equations in this form:
+
+A widely used small disturbance longitudinal model is 
+
+
+
 
 
 
