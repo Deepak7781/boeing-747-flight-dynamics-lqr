@@ -33,6 +33,24 @@ Primary simulation is carried out at:
 
 ---
 
+## Boeing 747 - Parameters
+|Aircraft Parameter|Value|
+|---|---|
+|Altitude $(ft)$|$20000$|
+|Mach|$0.650$|
+|True Airspeed $(ft/s)$|$673$|
+|Dyn Pressure $(lb/ft^2)$|$287.3$|
+|Weight $(lb)$|636636|
+|||
+|||
+|||
+|||
+|||
+|||
+|||
+|||
+|||
+
 ## Theory Used
 
 - Linearized aircraft equations of motion
