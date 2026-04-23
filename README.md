@@ -60,7 +60,7 @@ Primary simulation is carried out at:
 
 <td>
 
-|Lateral Derivatives|Value|
+|Longitudinal Derivatives|Value|
 |------------------------|----|
 |$X_u (1/s)$|$-0.0059$|
 |$X_\alpha (ft/s^2)$|$15.9787$|
@@ -78,7 +78,7 @@ Primary simulation is carried out at:
 
 <td>
 
-|Longitudinal Derivatives|Value|
+|Lateral Derivatives|Value|
 |------------------------|----|
 |$Y_{\beta} (ft/s^2)$|$-71.9142$|
 |$L_{\beta} (1/s^2)$|$-2.7255$|
