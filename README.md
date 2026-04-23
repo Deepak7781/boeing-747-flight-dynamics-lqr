@@ -1,4 +1,4 @@
-# Dynamic Simulation and LQR Control Design for a Boeing 747 Using Linearized Stability Derivatives
+# Eigen Value Analysis of Boeing 747 Using Linearized Stability Derivatives
 
 ---
 
