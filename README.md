@@ -115,24 +115,30 @@ Primary simulation is carried out at:
 
 ---
 
-## Mathematical Model
+## Building State-Space Model
 
-### Longitudinal States
-
-$$
-x_{lon} = [u, \alpha,\ q, \theta]^T
-$$
-
-### Lateral-Directional States
+Around the trim, any small perturbation obeys
 
 $$
-x_{lat} = [\beta,\ p,\ r, \phi]^T
+  \dot{\mathbf{x}} = A\mathbf{x} + B\mathbf{u}
 $$
 
-### General State-Space Form
+### Longitudinal Model
 
-$$
-\dot{x} = Ax + Bu
-$$
+State Vector : $\mathbf{x}_{lon} = [u\space\alpha\space q\space\theta]^T$
 
-Aerodynamic data is referenced from "Introduction to Aircraft Flight Mechanics" by Steven L. Morris, David E. Bossert and Wayne F. Hallgren
+Input Vector : $[\delta_e]$
+
+
+
+
+
+
+
+
+
+
+
+
+
+    Aerodynamic data is referenced from "Introduction to Aircraft Flight Mechanics" by Steven L. Morris, David E. Bossert and Wayne F. Hallgren
