@@ -489,26 +489,3 @@ It helps determine:
 Thus, eigenvalue analysis is one of the most fundamental tools in aircraft stability and control studies.
 
 ---
-
-## MATLAB Implementation Workflow
-
-The MATLAB workflow used in this project is:
-
-1. Define Boeing 747 geometric, inertial, and flight condition parameters
-2. Define dimensional stability derivatives
-3. Construct the longitudinal and lateral-directional state matrices
-4. Compute the eigenvalues of the longitudinal and lateral-directional system matrices
-5. Identify the corresponding dynamic modes
-6. Simulate open-loop responses using `initial` and `step`
-7. Interpret the responses in relation to the eigenvalues
-8. Extend the same modeling approach to Simulink
-
----
-
-## Example MATLAB Commands
-
-### Eigenvalue Computation
-
-```matlab
-lonEigen = eig(lonSS.A);
-latEigen = eig(latSS.A);
