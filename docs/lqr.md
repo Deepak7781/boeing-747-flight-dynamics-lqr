@@ -1,2 +1,1 @@
-# Linear Quadratic Regulator (LQR)
 
